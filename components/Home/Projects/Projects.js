@@ -2,7 +2,7 @@
 
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React from "react"; 
 import styles from "../../../styles/Projects.module.css";
 import { FaTwitter } from "react-icons/fa";
 // import { FaFacebook } from "react-icons/fa";
@@ -179,7 +179,7 @@ const Projects = () => {
                     <a
                       className="outer-shadow hover-in-shadow"
                       // target="_blank"
-                      href="https://github.com/skkhandokar/consultancy_site"
+                      href="https://github.com/skkhandokar/reactTodoProject"
                     >
                       <FaGithub />
                     </a>
