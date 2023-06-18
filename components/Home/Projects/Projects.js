@@ -1,3 +1,5 @@
+
+
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
@@ -151,6 +153,41 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
+
+                <div className="cards">
+                  <div
+                    className="cards__background"
+                    style={{
+                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/354465955_2492733287561201_7271715782695541690_n.jpg?stp=dst-jpg_s261x260&_nc_cat=107&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=5Or6geqXVS8AX9ZOs5e&_nc_oc=AQnVtimLNlq4IfBLDS-GuL9XGvhsgxAw2huDDvRK4kDQxQaXRd4pBnpfi9OkEiSEo34&_nc_ht=scontent.fdac137-1.fna&oh=00_AfDs0wynlCwphhoSYYtooOQR0NWN0b5rEUsVBS2iMbwtGQ&oe=64937D82)`,
+                    }}
+                  ></div>
+                  <div className="cards__content">
+                    <p className="cards__category">Category</p>
+                    <h3 className="cards__heading">React Todo App</h3>
+                  </div>
+                  <div className="social-links card-footer text-center pb-2">
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://reacttodoproject.netlify.app/"
+                    >
+                      <BiLinkExternal />
+                    </a>
+                    <a className="outer-shadow hover-in-shadow" href="/">
+                      <MdDescription />
+                    </a>
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://github.com/skkhandokar/consultancy_site"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                </div>
+          
+          {/* project cards ends */}
+
 
               </div>
             </section>
