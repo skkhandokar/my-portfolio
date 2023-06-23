@@ -185,6 +185,38 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
+
+             <div className="cards">
+                  <div
+                    className="cards__background"
+                    style={{
+                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/355843757_2495643383936858_6671678189501918001_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=HVp-GC8tkigAX-2f4I1&_nc_ht=scontent.fdac137-1.fna&oh=00_AfAfGcSG8gNx3b24tCGUyPzIDxtlaFOgn9fiGzAPKbkC3w&oe=649959A2)`,
+                    }}
+                  ></div>
+                  <div className="cards__content">
+                    <p className="cards__category">Category</p>
+                    <h3 className="cards__heading">Banking Project</h3>
+                  </div>
+                  <div className="social-links card-footer text-center pb-2">
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://skkhandokar10.pythonanywhere.com/"
+                    >
+                      <BiLinkExternal />
+                    </a>
+                    <a className="outer-shadow hover-in-shadow" href="/">
+                      <MdDescription />
+                    </a>
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://github.com/skkhandokar/banking-with-django"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                </div>
           
           {/* project cards ends */}
 
