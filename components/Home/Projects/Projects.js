@@ -158,7 +158,7 @@ const Projects = () => {
                   <div
                     className="cards__background"
                     style={{
-                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/354465955_2492733287561201_7271715782695541690_n.jpg?stp=dst-jpg_s261x260&_nc_cat=107&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=5Or6geqXVS8AX9ZOs5e&_nc_oc=AQnVtimLNlq4IfBLDS-GuL9XGvhsgxAw2huDDvRK4kDQxQaXRd4pBnpfi9OkEiSEo34&_nc_ht=scontent.fdac137-1.fna&oh=00_AfDs0wynlCwphhoSYYtooOQR0NWN0b5rEUsVBS2iMbwtGQ&oe=64937D82)`,
+                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/355450839_2495648973936299_7161835070967368986_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=qmVIaKCBIWEAX-ezTLZ&_nc_ht=scontent.fdac137-1.fna&oh=00_AfB_JUlXMow3mdMu-x_ar7rv7srSGLTTY3bR0fy79egWQA&oe=649A410B)`,
                     }}
                   ></div>
                   <div className="cards__content">
