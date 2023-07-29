@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import React from "react";
 import Typewriter from "typewriter-effect";
 // import styles from "../../../styles/HeroSection.module.css";
-import styles from "../../../styles/particles.module.css";
+import styles from "../../../styles/particles.module.css";  
 import "animate.css";
 
 const HeroSection = () => {
