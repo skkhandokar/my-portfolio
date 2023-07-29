@@ -186,7 +186,8 @@ const Projects = () => {
                   </div>
                 </div>
 
-             <div className="cards">
+
+              <div className="cards">
                   <div
                     className="cards__background"
                     style={{
@@ -212,6 +213,38 @@ const Projects = () => {
                       className="outer-shadow hover-in-shadow"
                       // target="_blank"
                       href="https://github.com/skkhandokar/banking-with-django"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                        
+          //cards 
+             <div className="cards">
+                  <div
+                    className="cards__background"
+                    style={{
+                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/363805413_2524376021063594_8538465808942696791_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=W-nfTLoE6CgAX8DWv86&_nc_ht=scontent.fdac137-1.fna&oh=00_AfDTAapPA0kJ6Z_iNsbSZYZ-cUT6zilbLXk4seZCZzM10Q&oe=64C9119A)`,
+                    }}
+                  ></div>
+                  <div className="cards__content">
+                    <p className="cards__category">Category</p>
+                    <h3 className="cards__heading">Short URL Project</h3>
+                  </div>
+                  <div className="social-links card-footer text-center pb-2">
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://skkhandokar11.pythonanywhere.com/"
+                    >
+                      <BiLinkExternal />
+                    </a>
+                    <a className="outer-shadow hover-in-shadow" href="/">
+                      <MdDescription />
+                    </a>
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://github.com/skkhandokar/urlshortner-project"
                     >
                       <FaGithub />
                     </a>
