@@ -218,7 +218,7 @@ const Projects = () => {
                     </a>
                   </div>
                         
-          //cards 
+            {/* project cards  */}
              <div className="cards">
                   <div
                     className="cards__background"
