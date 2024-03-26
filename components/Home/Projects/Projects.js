@@ -105,7 +105,7 @@ const Projects = () => {
                     <a
                       className="outer-shadow hover-in-shadow"
                       // target="_blank"
-                      href="https://rony7090.pythonanywhere.com/"
+                      href="https://skkhandokar16.pythonanywhere.com/"
                     >
                       <BiLinkExternal />
                     </a>
@@ -115,7 +115,7 @@ const Projects = () => {
                     <a
                       className="outer-shadow hover-in-shadow"
                       // target="_blank"
-                      href="https://github.com/skkhandokar/WARRIORS-MART"
+                      href="https://github.com/skkhandokar/Ecomerce-Django-React-Project"
                     >
                       <FaGithub />
                     </a>
@@ -250,7 +250,37 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-          
+          <div className="cards">
+                  <div
+                    className="cards__background"
+                    style={{
+                      backgroundImage: `url(https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/363805413_2524376021063594_8538465808942696791_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dbeb18&_nc_ohc=W-nfTLoE6CgAX8DWv86&_nc_ht=scontent.fdac137-1.fna&oh=00_AfDTAapPA0kJ6Z_iNsbSZYZ-cUT6zilbLXk4seZCZzM10Q&oe=64C9119A)`,
+                    }}
+                  ></div>
+                  <div className="cards__content">
+                    <p className="cards__category">Category</p>
+                    <h3 className="cards__heading">Ema John Shop</h3>
+                  </div>
+                  <div className="social-links card-footer text-center pb-2">
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://sk-ema-john.web.app/"
+                    >
+                      <BiLinkExternal />
+                    </a>
+                    <a className="outer-shadow hover-in-shadow" href="/">
+                      <MdDescription />
+                    </a>
+                    <a
+                      className="outer-shadow hover-in-shadow"
+                      // target="_blank"
+                      href="https://github.com/skkhandokar/ema-john"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                </div>
           {/* project cards ends */}
 
 
